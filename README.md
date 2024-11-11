@@ -12,7 +12,7 @@ This project contains automated functional tests for the online VAT calculator a
    git clone https://github.com/johny2056/VATcalculator.git
    cd VATcalculator
    ```
-2. install dependencies and run tests from pom file
+2. install dependencies from pom file and run tests
    ```
    mvn clean install
    ```
@@ -20,6 +20,10 @@ This project contains automated functional tests for the online VAT calculator a
    ```
    mvn test
    ```
+
+## Test case description
+- TC1 - Basic VAT Calculation verifies correct gross and VAT amounts for a valid net input and VAT rate.
+- TC5 - Negative Value Input confirms that a negative net amount prompts an error message.
 
 ## Contact
 For any questions or issues, please contact jan.sliacky@gmail.com
